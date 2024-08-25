@@ -48,6 +48,10 @@ nav button {
     transition: box-shadow 0.3s ease;
 }
 
+nav button:hover {
+    opacity: 0.7;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -85,6 +89,10 @@ nav button {
     cursor: pointer;
     box-shadow: 0px 4px 15px rgba(243, 153, 153, 0.1); 
     transition: box-shadow 0.3s ease;
+}
+
+.hero .text button:hover {
+    opacity: 0.7;
 }
 
 .hero .image {
@@ -151,6 +159,7 @@ nav button {
 
 .flow {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     width: 80%;
@@ -259,18 +268,24 @@ nav button {
 }
 
 .cta h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .cta button {
-    padding: 10px 30px;
+    padding: 15px 30px;
     border: none;
     background-color: hsl(322, 100%, 66%);
     cursor: pointer;
     box-shadow: 0px 4px 15px rgba(243, 153, 153, 0.1); 
     transition: box-shadow 0.3s ease;
     border-radius: 15px;
+    color: white;
+}
+
+
+.cta button:hover {
+    opacity: 0.7;
 }
 
 ion-icon {
@@ -280,13 +295,19 @@ ion-icon {
     border-radius: 50%;
 }
 
+ion-icon:hover {
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+}
+
 footer {
-    margin-top: 100px;
+    margin-top: 120px;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 2em;
 }
 
 footer .logo img {
@@ -304,7 +325,27 @@ footer .col1 {
     width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.col1, 
+.col li a {
+    color: white;
+}
+
+.link  {
+    display: flex;
+    flex-direction: column;
     gap: 1em;
+}
+
+.link li a:hover {
+    text-decoration: underline;
 }
 
 .loc,
@@ -314,4 +355,19 @@ footer .col1 {
     justify-content: flex-start;
     align-items: flex-start;
     gap: .5em;
+}
+
+.copy-text {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.copy-text p {
+    color: white;
+}
+
+
+@media  screen and (max-width: 420px) {
+    
 }
