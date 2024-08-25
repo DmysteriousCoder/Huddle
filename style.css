@@ -90,7 +90,7 @@ nav button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .grow {
@@ -109,7 +109,18 @@ nav button {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: 1em;
+}
+
+.grow .txt h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.grow .txt p {
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(208, 11%, 55%);
 }
 
 .grow .imag {
@@ -117,5 +128,135 @@ nav button {
 }
 
 .grow .imag img {
-    height: 200px;
+    height: 250px;
+}
+
+.flow-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.flow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    padding: 30px 50px;
+}
+
+.flow .txt {
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.flow .txt h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.flow .txt p {
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(208, 11%, 55%);
+}
+
+.flow .imag {
+    width: 45%;
+}
+
+.flow .imag img {
+    height: 250px;
+}
+
+.user-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    padding: 30px 50px;
+}
+
+.user .txt {
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.user .txt h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.user .txt p {
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(208, 11%, 55%);
+}
+
+.user .imag {
+    width: 45%;
+}
+
+.user .imag img {
+    height: 250px;
+}
+
+.footer-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+}
+
+.cta {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 50px 0;
+}
+
+.cta h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cta button {
+    padding: 10px 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(243, 153, 153, 0.1); 
+    transition: box-shadow 0.3s ease;
+    border-radius: 15px;
 }
