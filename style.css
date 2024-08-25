@@ -373,6 +373,14 @@ footer .col1 {
         width: 90%;
     }
 
+    nav .logo img {
+        height: 20px;
+    }
+
+    nav button {
+        padding: 7px 15px;
+    }
+
     .hero {
         flex-direction: column;
     }
@@ -380,6 +388,12 @@ footer .col1 {
     .hero .text {
         width: 100%;
         height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .text h1, p {
+        text-align: center;
     }
 
     .hero .image {
@@ -388,14 +402,195 @@ footer .col1 {
     }
 
     .hero .text h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .hero .text p {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .hero button {
         padding: 10px 20px;
+    }
+
+    .hero .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero img {
+        height: 200px;
+    }
+
+    .grow {
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 15px;
+        gap: 1em;
+    }
+
+    .grow .txt {
+        width: 80%;
+        height: 50%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    .grow .txt h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .grow .txt p {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: .5;
+    }
+
+    .grow .imag {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grow img {
+        height: 50px;
+    }
+
+    .flow {
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 15px;
+        gap: 1em;
+    }
+
+    .flow .txt {
+        width: 80%;
+        height: 50%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    .flow .txt h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .flow .txt p {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: .5;
+    }
+
+    .flow .imag {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flow img {
+        height: 30px;
+    }
+
+    .user {
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 15px;
+        gap: 1em;
+    }
+
+    .user .txt {
+        width: 80%;
+        height: 50%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    .user .txt h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .user .txt p {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: .5;
+    }
+
+    .user .imag {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user img {
+        height: 50px;
+    }
+
+    .cta {
+        width: 80%;
+    }
+
+    .cta h3 {
+        font-size: 20px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    .column {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .loc  p {
+        text-align: left;
+        width: 70%;
+    }
+
+    .social {
+        display: flex;
+        gap: .5em;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copy-text p {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 }
